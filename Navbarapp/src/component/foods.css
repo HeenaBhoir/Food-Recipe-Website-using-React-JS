@@ -1,0 +1,54 @@
+img {
+    height: 300px;
+    width: 300px;
+  }
+
+.titles{
+    font-size: 30px;
+}
+.fc{
+  font-size: 70px;
+  margin-top: 170px;
+  margin-left: 100px;
+}
+
+
+.headings{
+    font-size: 50px;
+    margin-bottom: 50px;
+   
+    background: conic-gradient(
+		from 45deg,
+		#020681 0,
+		#abca78 90deg,
+		#abca78 90deg,
+		#abca78 180deg,
+		#0818ff 180deg,
+		#abca78 270deg,
+		#0f9bfe 270deg,
+		#0f9bfe 360deg) 
+        ; 
+    /* background-color: saddlebrown; */
+    border-radius: 2px;
+    border-color: black;
+}
+.ingredient{
+    font-size: 15px;
+}
+
+.search{
+  font-size: 30px;
+}
+
+a.links:link, a.links:visited {
+    background-color: rgb(186, 186, 231);
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a.links:hover, a.links:active {
+    background-color: rgb(214, 170, 203);
+  }
